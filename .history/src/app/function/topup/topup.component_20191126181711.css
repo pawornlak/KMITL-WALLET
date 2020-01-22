@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background: #06567E;
+    font-family: "Montserrat", sans-serif;
+}
+
+.head {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 120px;
+    background-color: #11304F;
+    margin-top: 0px;
+}
+.txthead{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    display: block;
+    font-size: 40px;
+    text-align : 55px;
+    color: #fff;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.container {
+    
+    top: 100%;
+	background-color: #11304F;
+	border-radius: 0px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 600px;
+    min-height: 480px;
+    margin: -20px 0 50px;
+    top: 10px;
+    left: 360px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+h1 {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+h2{
+    position: absolute;
+    top: 110px;
+    left: 60px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+    width: 500px;
+    height: 60px;
+    border-radius: 5px;
+    position: absolute;
+    left: 60px;
+}
+.incode{
+    position: absolute;
+    top: 150px;
+
+}
+
+
+
+button {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    width: 500px;
+    height: 50px;
+	border-radius: 10px;
+	border: 1px solid #15C5D2;
+	background-color: #4c9fc5;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #ffffff;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("../../../assets/images/home.jpg");
+    background-size: cover;
+    height: 600px;
+    margin-top: 7px;
+    
+  
+  }
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background-image: url("../../../assets/images/head.png");
+    height: 220px;
+    margin: 0 auto;
+  }

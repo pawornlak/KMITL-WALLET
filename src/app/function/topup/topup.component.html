@@ -1,0 +1,26 @@
+<body>
+     <div class="modle-dialog text-center">
+        <div class="col-sm-2 main-section">
+                <div class="container" id="container">
+                    <div class="form-container sign-in-container">
+                        <form (submit)="onTopup(topupForm)" #topupForm="ngForm" action="#">
+                            <h1>T&nbsp;o&nbsp;p&nbsp;&nbsp;U&nbsp;p</h1>
+                            <h2>Redeem Code</h2>
+                            <div class="incode">
+                                <input
+                                type="text"
+                                placeholder="xxxx-xxxx-xxxx"
+                                name="code"
+                                ngModel
+                                #codeInput='ngModel'
+                                required code
+                                />
+                            </div>
+                            <button type="submit">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+

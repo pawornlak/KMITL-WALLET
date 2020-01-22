@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("../../assets/images/home.jpg");
+    background-size: contain;
+    height: 600px;
+    margin-top: 7px;
+    width: auto;
+    
+    
+  
+  }
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background-image: url("../../assets/images/head.png");
+    height: 220px;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  button {
+    position: absolute;
+    top: 400px;
+    width: 70px;
+    height: 50px;
+	border-radius: 10px;
+	border: 1px solid #15C5D2;
+	background-color: #4c9fc5;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin:0 auto;
+}

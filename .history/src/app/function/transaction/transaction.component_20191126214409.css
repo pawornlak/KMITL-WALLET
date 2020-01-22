@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url("../../assets/images/home.jpg");
+  background-size: contain;
+  height: 600px;
+  margin-top: 7px;
+  width: auto;

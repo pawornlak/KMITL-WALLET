@@ -1,0 +1,25 @@
+<div class="header" >
+<mat-toolbar color="primary" *ngIf="userIsAuthenticated" style="margin-top: 160px;height: 48px;background: #11304f;width: 1340px;margin-left: -35px;">
+  <span>
+    <a mat-button routerLink="/balance" routerLinkActive="mat-accent">KMITL-WALLET</a>
+  </span>
+  <span class="spacer"></span>
+  <ul>
+    <li *ngIf="userIsAuthenticated">
+      <a mat-button routerLink="/profile" routerLinkActive="mat-accent">Profile</a>
+    </li>
+    <li *ngIf="userIsAuthenticated">
+      <a mat-button routerLink="/transfer" routerLinkActive="mat-accent">Transfer</a>
+    </li>
+    <li *ngIf="userIsAuthenticated">
+      <a mat-button routerLink="/transaction" routerLinkActive="mat-accent">History</a>
+    </li>
+    <li *ngIf="userIsAuthenticated">
+      <a mat-button routerLink="/topup" routerLinkActive="mat-accent">Topup</a>
+    </li>
+    <li *ngIf="userIsAuthenticated">
+      <button mat-button (click)="onLogout()">Logout</button>
+    </li>
+  </ul>
+</mat-toolbar>
+</div>

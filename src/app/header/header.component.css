@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url("../../assets/images/head.png");
+  background-size: 100%;
+  height: 170px;
+  margin: 0 auto;
+  width: auto;
+}

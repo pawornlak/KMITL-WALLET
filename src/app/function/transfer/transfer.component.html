@@ -1,0 +1,40 @@
+
+<body>
+    <div class="modle-dialog text-center">
+        <div class="col-sm-2 main-section">
+                <div class="container" id="container">
+                    <div class="form-container sign-in-container" >
+                        <form (submit)="onTransfer(trasferForm)" #trasferForm="ngForm" action="#">
+                            <h1>T&nbsp;r&nbsp;a&nbsp;n&nbsp;s&nbsp;f&nbsp;e&nbsp;r</h1>
+                            <h2>Destination Account</h2>
+                            <div class="ac">
+                                <input
+                                type="text"
+                                placeholder="xxx-x-xxxxx-x"
+                                name="Account"
+                                ngModel
+                                #AcctransferInput='ngModel'
+                                required acctransfer
+                                />
+                            </div>
+                            <h3>Amount</h3>
+                            <div class="am">
+                                <input
+                                type="number"
+                                name ="amount"
+                                placeholder="0.00"
+                                ngModel
+                                #AmountInput='ngModel'
+                                required
+                                Amount
+                                 />
+                            </div>
+                            <button type="submit" >SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+

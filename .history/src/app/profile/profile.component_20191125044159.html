@@ -1,0 +1,21 @@
+
+
+<body>
+    <mat-card style="margin:50px 450px;height: 450px;width: 450px;">
+    <h1>Profile</h1>
+    <img mat-card-image src="../../assets/images/face.png"style="height: 70px;width: 100px;margin:0 auto" >
+    <div class="txt">
+        <h2>Account number : {{ profile.account}}</h2>
+        <h2>First name : {{ profile.first}}</h2>
+        <h2>Last name : {{ profile.last}}</h2>
+        <h2>E-mail : {{ profile.email}}</h2>
+    </div>
+
+
+    <div class="btn">
+        <button mat-button routerLink="/balance"  class="btn3" >BACK</button>
+    </div>
+</mat-card>
+
+</body>
+

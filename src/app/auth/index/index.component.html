@@ -1,0 +1,108 @@
+
+	<body>
+		<div class="container" id="container">
+			<div class="form-container sign-up-container">
+				<form (submit)="onSignup(signupForm)" #signupForm="ngForm" action="#">
+					<h1>Create Account</h1>
+          <input
+            type="text"
+            matInput
+            name="Account"
+            ngModel
+            placeholder="Account Number"
+            #AccountInput="ngModel"
+            required account
+             />
+          <input
+            type="text"
+            matInput
+            name="upUsername"
+            placeholder="Username"
+            ngModel
+            #upUserInput="ngModel"
+            required upUser
+           />
+          <input
+            type="password"
+            matInput
+            name="upPassword"
+            placeholder="Password"
+            ngModel
+            #upPassInput="ngModel"
+            required upPass
+            />
+          <input
+            type="text"
+            matInput
+            name="Firstname"
+            placeholder="Firt name"
+            ngModel
+            #FirstnameInput="ngModel"
+            required Firstname
+            />
+          <input
+            type="text"
+            matInput
+            name="Lastname"
+            placeholder="Last name"
+            ngModel
+            #LastnameInput="ngModel"
+            required Lastname
+           />
+          <input
+            type="email"
+            matInput
+            name="email"
+            placeholder="Email"
+            ngModel
+            #EmailInput="ngModel"
+            required email
+            />
+          <button>Sign Up</button>
+
+				</form>
+			</div>
+			<div class="form-container sign-in-container">
+				<form (submit)="onLogin(loginForm)" #loginForm="ngForm" action="#">
+					<h1>Sign in</h1>
+
+          <input
+            name="username"
+            matInput
+            ngModel
+            type="username"
+            placeholder="Username"
+            #usernameInput="ngModel"
+            required username
+            [maxLength]='15'/>
+
+          <input
+            type="password"
+            matInput
+            name="password"
+            ngModel
+            placeholder="Password"
+            #passwordInput="ngModel"
+            required />
+
+          <button tpye="submit">Sign In</button>
+
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Welcome Back!</h1>
+						<p>To keep connected with us please login with your personal info</p>
+						<button class="ghost" id="signIn">Sign In</button>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Welcome to KMITL-WALLET</h1>
+						<p>Enter your personal details and start journey with us</p>
+						<button class="ghost" id="signUp">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+

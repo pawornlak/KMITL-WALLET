@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("../../assets/images/bg2.jpg");
+    background-size:contain;
+    height: 600px;
+    margin-top: 7px;
+    width: auto;
+    
+    
+  
+  }
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background-image: url("../../assets/images/head.png");
+    height: 220px;
+    margin: 0 auto;
+    width: auto;
+  }
